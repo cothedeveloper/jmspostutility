@@ -14,10 +14,15 @@ You may have to update the `applciation.properties` file if you want to post to 
 
 ### application.properties Overview
 
-This is the congfiguration file inorder to run this app.  You will go here to update the connection information or any other settings realted to the app.  Below are the parameters that I let the user control from the properties file.
+This is the configuration file inorder to run this app.  You will go here to update the connection information or any other settings realted to the app.  Below are the parameters that I let the user control from the properties file.
 
 `broker-url`-  Tells the app which activeMQ server to communicate.
+
 `serviceEP`  This is a property on the message.  For my tutorial no changes are needed.  
+
 `serviceAction` - This is a property on the message.  For my tutorial no changes are needed.
+
 `queueName` -  This is the destination queue for the message in transit
+
 `inputFileLocation` -  This tells the app where to find the input file which is the message we put on the activemq server.
+
