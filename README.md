@@ -1,5 +1,5 @@
 # JMS Post Utility
-This app post messages to an Apache ActiveMQ server with 2 properties(serviceEP,serviceAction) attached to the message.  I use spring boot to read in the application.properties file and post a message to the queue.  
+This app post messages to an Apache ActiveMQ server with 2 properties(serviceEP,serviceAction) attached to the message.  I use spring boot to read in the application.properties file and post a message to a queue.  
 
 Steps to Run Project.
 ```sh
@@ -14,7 +14,7 @@ You may have to update the `applciation.properties` file if you want to post to 
 
 ### application.properties Overview
 
-This is the configuration file inorder to run this app.  You will go here to update the connection information or any other settings realted to the app.  Below are the parameters that I let the user control from the properties file.
+This is the configuration file inorder to run this app.  You will go here to update the connection information or any other settings related to the app.  Below are the parameters from the properties file.
 
 `broker-url`-  Tells the app which activeMQ server to communicate.
 
